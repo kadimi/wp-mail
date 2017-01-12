@@ -37,7 +37,7 @@ class WPMail
 	 * @param string|array $attachments Optional. Files to attach.
 	 * @return bool Whether the email contents were sent successfully.
 	 */
-	function send( $to, $subject, $message, $headers = '', $attachments = array() ) {
+	public static function send( $to, $subject, $message, $headers = '', $attachments = array() ) {
 		// Compact the input, apply the filters, and extract them back out
 		/**
 		 * Filter the wp_mail() arguments.
