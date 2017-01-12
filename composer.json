@@ -1,0 +1,14 @@
+{
+    "name": "kadimi/wp-mail",
+    "description": "WordPress `wp_mail` function",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Nabil Kadimi",
+            "email": "nabil@kadimi.com"
+        }
+    ],
+    "autoload": {
+        "files": [ "src/WPMail.class.php" ]
+    }
+}
