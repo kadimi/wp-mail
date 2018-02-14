@@ -1,7 +1,7 @@
 {
     "name": "kadimi/wp-mail",
     "description": "WordPress `wp_mail` function",
-    "license": "GPL",
+    "license": "GPL-3.0+",
     "authors": [
         {
             "name": "Nabil Kadimi",
